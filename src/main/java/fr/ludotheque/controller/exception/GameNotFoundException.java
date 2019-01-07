@@ -1,4 +1,4 @@
-package fr.test.hibernate.app.web.controller.exception;
+package fr.ludotheque.controller.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

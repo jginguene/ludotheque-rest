@@ -1,4 +1,4 @@
-package fr.test.hibernate.app.web.controller;
+package fr.ludotheque.controller;
 
 import java.net.URI;
 import java.util.List;
@@ -20,9 +20,9 @@ import com.fasterxml.jackson.databind.ser.FilterProvider;
 import com.fasterxml.jackson.databind.ser.impl.SimpleBeanPropertyFilter;
 import com.fasterxml.jackson.databind.ser.impl.SimpleFilterProvider;
 
-import fr.test.hibernate.app.dao.IGameDao;
-import fr.test.hibernate.app.model.Game;
-import fr.test.hibernate.app.web.controller.exception.GameNotFoundException;
+import fr.ludotheque.dao.IGameDao;
+import fr.ludotheque.model.Game;
+import fr.ludotheque.controller.exception.GameNotFoundException;
 
 @RestController
 public class GameController {

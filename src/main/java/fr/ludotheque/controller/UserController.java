@@ -1,8 +1,8 @@
-package fr.test.hibernate.app.web.controller;
+package fr.ludotheque.controller;
 
 
-import fr.test.hibernate.app.dao.IUserDao;
-import fr.test.hibernate.app.model.User;
+import fr.ludotheque.dao.IUserDao;
+import fr.ludotheque.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -17,7 +17,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.util.Arrays;
 import java.util.List;
 
 

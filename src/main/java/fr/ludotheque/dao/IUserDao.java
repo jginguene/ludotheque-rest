@@ -1,17 +1,16 @@
-package fr.test.hibernate.app.dao;
+package fr.ludotheque.dao;
 
 
-import fr.test.hibernate.app.model.Game;
-import fr.test.hibernate.app.model.User;
+import fr.ludotheque.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import java.util.List;
+import java.util.Optional;
 
 
 @Repository
 public interface  IUserDao extends JpaRepository<User, Integer> {
 
-    User findByUserNameEquals(String userName);
+    Optional<User> findByUserName(String userName);
 
 }
